@@ -71,7 +71,7 @@ void loop() {
       break;
     case 3:
       state_3();
-      if((tepi_naik == LOW) > delay_state){
+      if(tepi_naik == LOW){
         state = 4;
         waktu_state = millis();
       }
